@@ -1,0 +1,101 @@
+#images {
+	margin:20px 0 0 50px;
+	width:400px;
+	float:left;
+	z-index:900;
+}
+
+.name{
+	width: 200px;
+	line-height: 250%
+	border:1px solid white;
+	font-size: 20px;
+	float: left;
+	margin-top:40px;
+	margin-left: -350px;
+
+}
+.picture{
+	float: left;
+	margin-top: 70px;
+	margin-left: -350px;
+	text-align: center;
+	border-style: dashed;
+	border-color: rgb(FEE134);
+}
+.menu{
+	width:100%; height:40px;
+	float:left;
+	margin-top: -500px;
+	margin-left: 80px;
+}
+
+.row{
+	width:98%;
+	margin:auto;
+	padding:2px;
+	border-top:1px solid #fff;
+}
+
+.information{
+	width:100%; height:40px;
+	float:left;
+	margin-top: -750px;
+	margin-left: 350px;
+}
+
+
+.section{
+	width:1900px;
+	margin-top: -15px;
+	margin-left: 500px;
+}
+table{
+	border-collapse: collapse;
+	width:500px;
+
+}
+table, th, td{
+	border:2px solid #5D5D5D;
+}
+.table-head{
+	font-size:15px;
+}
+.table-data{
+	font-size:13px;
+	text-align: center;
+}
+.table-italic{
+	font-size:13px;
+	text-align: center;
+	font-style: italic;
+}
+a.school:link{
+	text-decoration: none;
+	color: #0054FF;
+}
+a.school:visited{
+	text-decoration: none;
+	color: #0054FF;
+}
+
+
+a.team:link{
+	text-decoration: none;
+	color: #0054FF;
+}
+a.team:visited{
+	text-decoration: none;
+	color: #0054FF;
+}
+#prof
+#profile{
+	width:90px; height:120px;
+}
+
+#contents h2{
+	font-size:18px;
+	text-indent: 10px;
+	padding:1px;
+	height:30px;
+}

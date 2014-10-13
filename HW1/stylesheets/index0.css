@@ -1,0 +1,100 @@
+#images {
+	margin:20px 0 0 50px;
+	width:400px;
+	float:left;
+}
+
+.name{
+	width: 200px;
+	line-height: 250%
+	border:1px solid white;
+	font-size: 20px;
+	float: left;
+	margin-top:40px;
+	margin-left: -350px;
+}
+.picture{
+	float: left;
+	margin-top: 70px;
+	margin-left: -350px;
+	text-align: center;
+	border-style: dashed;
+	border-color: rgb(FEE134);
+}
+.menu{
+	width:100%; height:40px;
+	float:left;
+	margin-top: -500px;
+	margin-left: 80px;
+}
+
+
+
+.board{
+	width:300px;
+	line-height: 200%;
+	border:1px solid white;
+	font-size: 15px;
+	float:right;
+	margin-top: -750px;
+	margin-right: 700px;
+	padding:1px;
+}
+
+.board2{
+	width:300px;
+	line-height: 200%;
+	border:1px solid white;
+	font-size: 15px;
+	float:right;
+	margin-top: -750px;
+	margin-right: 350px;
+	padding:1px;
+}
+
+.board3{
+	width:300px;
+	line-height: 200%;
+	border:1px solid white;
+	font-size: 15px;
+	float:right;
+	margin-top: -500px;
+	margin-right: 700px;
+	padding:1px;
+}
+
+.title{
+	background-color:#2478FF;
+	font-size:14px;
+	text-indent: 10px;
+	font-weight: bold;
+}
+.row{
+	width:98%;
+	margin:auto;
+	padding:2px;
+	border-top:1px solid #fff;
+}
+.board-title{
+	float:left;
+}
+.date{
+	text-align: right;
+	font-size:13px;
+}
+.board .title .more{
+	float:right;
+	margin-right:10px;
+	font-weight: normal;
+	color:#222;
+
+}
+.board .title .more:link, .board .title .more:visited{
+	text-decoration: underline;
+	background-color: transparent;
+	color:inherit;
+}
+.board .title .more:hover, .board .title .more:active{
+	background-color: transparent;
+	color:#555;
+}

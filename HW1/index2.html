@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>ParkJeongHyeon</title>
+	<link href="stylesheets/index2.css" rel="stylesheet" type="text/css">
+	<link href="stylesheets/main.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<div id="contents">
+		<div id="intro">
+			<div id="images">
+				<img src="images/moon.png" alt="moon">
+			</div>
+
+			<div class="name">
+				<h1>Park Jeong Hyeon</h1>
+
+			</div>
+
+			<div class="picture">
+				<img src="images/park.png" alt="moon"><br>
+				<a>컴퓨터 공학과 </a><br>
+				<a>60112357 박정현</a>
+			</div>
+
+			<div class="menu">
+			<ul>
+				<li id="tap1"><a href="index0.html">HOME</a></li>
+				<li id="tap2"><a href="index1.html">Profile</a></li>
+				<li id="tap3"><a href="index2.html">Research</a></li>
+			</ul>
+			</div>
+
+			<div class="hello">
+				<h1>Research</h1>
+					<span> 안녕하세요.<br>
+						   이 페이지는 저에 관한 간단한 설문을 받는 페이지 입니다.<br>
+						   설문에 대한 불이익은 없으니 편히 설문에 응해주시면 감사하겠습니다. </span><br><br>
+						   <p>
+						   	<b>응답자 정보 :</b> 
+								<span><input type="radio" name="sex" value="m">남자</span>
+								<span><input type="radio" name="sex" value="f">여자</span><br>
+							</p>
+
+							<p>
+								<b>나이 : </b>
+									<span><input type="text" name="born-year" style="width:50px; text-align:right">년 </span>
+									<span><input type="text" name="born-month" style="width:40px; text-align:right">월 생</span>		
+							</p>
+
+							<p>
+								<b>거주지 : </b>
+								<select name="living-area">
+									<option value="seoul-n">서울(강북)</option>
+									<option value="seoul-s">서울(강남)</option>
+									<option value="gyeonggi">경기도</option>
+									<option value="chung-n">충청북도</option>
+									<option value="chung-s">충청남도</option>
+									<option value="gang">강원도</option>
+									<option value="sang-n">경상북도</option>
+									<option value="sang-s">경상남도</option>
+									<option value="jeon-n">전라북도</option>
+									<option value="jeon-s">전라남도</option>
+									<option value="fore">해외</option>
+									<option value="jeju">제주</option>
+								</select>
+							</p>
+
+							<h2>설문 내용</h2>
+								<p>
+								<b>1. 저와는 어떻게 알게 되셨나요?</b>
+									<span><input type="text" name="how" style="width:400px; text-align:right"></span>		
+								</p>
+
+								<p>
+								<b>2. 저에 대해서 어떻게 생각 하시나요?</b>
+									<span><input type="text" name="think" style="width:365px; text-align:right"></span>		
+								</p>
+
+								<p>
+								<b>3. 제 성격은 어떤것 같나요?</b>
+									<span><input type="text" name="good" style="width:430px; text-align:right"></span>		
+								</p>
+
+								<b>4. 저에게 친구로써의 점수를 매긴다면?</b>
+									<div class="answer"><input type="radio" name="score" value="best">베스트 프렌드
+														<input type="radio" name="score" value="good">친한 친구
+														<input type="radio" name="score" value="soso">그냥 그런 친구
+														<input type="radio" name="score" value="bad">조금 어색한 친구
+														<input type="radio" name="score" value="worst">아는척 하지마</div>
+
+								<b>5. 마지막으로 하고싶은 한마디?</b>
+							<div class="answer"><textarea cols="40" rows="5" name="last"> </textarea></div>
+
+							<div id="sub">
+								<input type="submit" value="제출하기"> <input type="reset"> <a href="#top">위로가기</a>
+							</div>
+				</div>
+			</div>
+	<div id="footer">
+	</div>
+</div>
+</body>
+</html>
