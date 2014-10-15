@@ -50,9 +50,26 @@
 	padding:3px;
 	color:#333;
 	margin-left: 50px;
+
 }
 
+.birthbox input{
 
+	width:50px; 
+	text-align:right
+}
+.know input{
+	width:400px; 
+	text-align:left
+}
+.think input{
+	width:365px; 
+	text-align:left
+}
+.mind input{
+	width:430px; 
+	text-align:left
+}
 
 #contents h2{
 	font-size:18px;
