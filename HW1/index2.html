@@ -37,17 +37,19 @@
 					<span> 안녕하세요.<br>
 						   이 페이지는 저에 관한 간단한 설문을 받는 페이지 입니다.<br>
 						   설문에 대한 불이익은 없으니 편히 설문에 응해주시면 감사하겠습니다. </span><br><br>
-						   <p>
+						   
+						   	<form action="/update.php" method="post">
+						   	<p>
 						   	<b>응답자 정보 :</b> 
 								<span><input type="radio" name="sex" value="m">남자</span>
 								<span><input type="radio" name="sex" value="f">여자</span><br>
 							</p>
 
-							<p>
-								<b>나이 : </b>
-									<span><input type="text" name="born-year" style="width:50px; text-align:right">년 </span>
-									<span><input type="text" name="born-month" style="width:40px; text-align:right">월 생</span>		
-							</p>
+								<div class="birthbox">
+									<b>나이 : </b>
+										<span><input type="text" name="born-year" >년</span>
+										<span><input type="text" name="born-month">월 생</span>
+								</div>
 
 							<p>
 								<b>거주지 : </b>
@@ -68,20 +70,20 @@
 							</p>
 
 							<h2>설문 내용</h2>
-								<p>
+								<div class="know">
 								<b>1. 저와는 어떻게 알게 되셨나요?</b>
-									<span><input type="text" name="how" style="width:400px; text-align:left"></span>		
-								</p>
+									<span><input type="text" name="how"></span>		
+								</div>
 
-								<p>
+								<div class="think">
 								<b>2. 저에 대해서 어떻게 생각 하시나요?</b>
-									<span><input type="text" name="think" style="width:365px; text-align:left"></span>		
-								</p>
+									<span><input type="text" name="think"></span>
+								</div>	
 
-								<p>
+								<div class="mind">
 								<b>3. 제 성격은 어떤것 같나요?</b>
-									<span><input type="text" name="good" style="width:430px; text-align:left"></span>		
-								</p>
+									<span><input type="text" name="good" ></span>		
+								</div>
 
 								<b>4. 저에게 친구로써의 점수를 매긴다면?</b>
 									<div class="answer"><input type="radio" name="score" value="best">베스트 프렌드
@@ -96,10 +98,11 @@
 							<div id="sub">
 								<input type="submit" value="제출하기"> <input type="reset"> <a href="#top">위로가기</a>
 							</div>
+						</form>
 				</div>
+		</div>
+			<div id="footer">
 			</div>
-	<div id="footer">
 	</div>
-</div>
 </body>
 </html>
